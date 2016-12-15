@@ -1,0 +1,38 @@
+table {
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 0 auto;
+
+
+}
+form.gameboard {
+  background-color: green;
+  max-width: 600px;
+  padding: 15px;
+  position: absolute;
+
+}
+
+td {
+  font-size: 24px;
+  padding: 5px;
+
+}
+tr {
+  text-align: center;
+
+
+}
+
+input.button {
+  font-size: 22px;
+  float: left;
+  padding: 5px;
+
+
+}
+
+
+
+
+
