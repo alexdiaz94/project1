@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>BlackJack</title>
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/style.css">
-  <script src="src/app.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Kumar+One" rel="stylesheet">
+  <script src="src/BJapp.js"></script>
 </head>
+
 <body>
+<div>
+  <h2>Lets Play BlackJack</h2>
 
-<form class="gameboard"> display
-<table>
+  <center>
+    Dealer:<input type="text" id="dealer">
+    <br> Player:
+    <input type="text" id="you">
+    <br>
+    <input type=button value="HIT" onClick="HUMAN()">
+    <input type=button value="STAND" onClick="COMPUTER();determineWinner();">
+    <input type=button value="DEAL" onClick="GenerateNewCard()">
+    <br>
+    <br>
+  </center>
+  <center>
+    <table id="resultat">
+      <tr>
+        <th>HUMAN</th>
+        <th>COMPUTER</th>
+        <th>Games Played</th>
+      </tr>
+      <tr>
+        <td id="HUM"></td>
+        <td id="COMP"></td>
+        <td id="COUNT"></td>
+      </tr>
+    </table>
+  </center>
+  <br>
+  <center>
+    <h2>Stats</h2>
+    <table id="stat">
+      <tr>
+        <th>Player</th>
+        <th>Dealer</th>
+      </tr>
+      <td id="HUMW"></td>
+      <td id="COMPW"></td>
+      </div>
+    </table>
+  </center>
+</body>
 
-<tr>
-  <td>Score:</td>
-  <td>Dealer:</td>
-  <td>
-  <input type=text name="dealer"></td>
-  <td>Card(s):<input type=text name="say1" value=""></td>
-</tr>
-
-<tr>
-  <td><input type=text name="numgames" value="0"></td>
-  <td>Player:</td>
-
-  <td><input type=text name="you"></td>
-  <td>Card(s):<input type=text name="say2" value=""></td>
-</tr>
-
-<tr>
-  <td><input type=button class="button" value="Deal"></td>
-<td>
-
-<input type=button class="button" value="Stand">
-<input type=button class="button" value="Hit"></td></tr>
-
-      </table>
-    </form>
-  </body>
 </html>

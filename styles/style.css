@@ -1,38 +1,29 @@
-table {
-  box-sizing: border-box;
-  padding: 5px;
-  margin: 0 auto;
-
-
-}
-form.gameboard {
-  background-color: green;
-  max-width: 600px;
-  padding: 15px;
-  position: absolute;
-
-}
-
-td {
-  font-size: 24px;
-  padding: 5px;
-
-}
-tr {
+h2 {
   text-align: center;
-
-
+  font-size: 24px;
+  padding-bottom: 25px;
+  font-family: 'Kumar One', cursive;
 }
 
-input.button {
-  font-size: 22px;
-  float: left;
-  padding: 5px;
-
-
+table {
+  background: green;
+}
+div {
+  background: green;
+  max-width: 600px;
+  padding: 20px;
+  position: absolute;
+  left: 35%;
 }
 
 
-
+#resultat {
+  border:4px solid black;
+  letter-spacing: 2px;
+}
+th{
+  border: 2px solid black;
+  font-size: 18px;
+}
 
 
