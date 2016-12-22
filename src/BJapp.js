@@ -44,7 +44,7 @@ function GenerateNewCard()
   var f = document.getElementById("COUNT").innerHTML = counter;
   var a = parseInt(document.getElementById("dealer").value = 0);
   var res = document.getElementById("dealer");
-  var aa = parseInt(document.getElementById("you").value - 0);
+  var aa = parseInt(document.getElementById("you").value = 0);
   var resa = document.getElementById("You");
   resa.value = a + getACard("You");
   res.value = aa + getACard("Dealer");
